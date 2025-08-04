@@ -8,35 +8,52 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Reort Brand Colors - Nature-inspired palette */
+    --background: 48 20% 98%;
+    --foreground: 175 85% 12%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 48 20% 98%;
+    --card-foreground: 175 85% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 175 85% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Dark Teal (#053c3a) */
+    --primary: 175 85% 12%;
+    --primary-foreground: 48 20% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Aqua Blue (#7ab5bd) */
+    --secondary: 184 35% 60%;
+    --secondary-foreground: 175 85% 12%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Sage Green (#63875b) */
+    --muted: 94 24% 45%;
+    --muted-foreground: 175 85% 12%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Deeper Teal (#07423f) */
+    --accent: 175 80% 14%;
+    --accent-foreground: 48 20% 98%;
+
+    /* Yellow Highlight (#f3cb5d) */
+    --yellow: 45 85% 66%;
+    --yellow-foreground: 175 85% 12%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 94 24% 85%;
+    --input: 94 24% 90%;
+    --ring: 175 85% 12%;
 
-    --radius: 0.5rem;
+    /* Design system extensions */
+    --gradient-primary: linear-gradient(135deg, hsl(175 85% 12%), hsl(175 80% 14%));
+    --gradient-secondary: linear-gradient(135deg, hsl(184 35% 60%), hsl(45 85% 66%));
+    --gradient-hero: linear-gradient(135deg, hsl(175 85% 12%) 0%, hsl(94 24% 45%) 100%);
+    
+    --shadow-soft: 0 4px 20px hsl(175 85% 12% / 0.1);
+    --shadow-elegant: 0 10px 40px hsl(175 85% 12% / 0.15);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
